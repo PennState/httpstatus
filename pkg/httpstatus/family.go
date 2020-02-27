@@ -4,10 +4,13 @@ import (
 	"fmt"
 )
 
-type family string
+type family string // TODO: change this to "class" to match the spec?
 
 // Status families are grouped by their hundreds digit and are
 // convenient for broad comparisons of returned status codes.
+// The status families (formally classes) provided below are
+// defined in section 6 of RFC7231
+// (https://tools.ietf.org/html/rfc7231#section-6).
 const (
 	FamilyInvalid       family = ""
 	FamilyInformational family = "1xx"
