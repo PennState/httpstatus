@@ -1,2 +1,3 @@
-# httpstatus
-Provides common HTTP status handling
+# httputil
+
+Provides common HTTP utilities.

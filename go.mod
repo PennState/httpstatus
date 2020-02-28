@@ -1,4 +1,4 @@
-module github.com/PennState/httpstatus
+module github.com/PennState/httputil
 
 go 1.14
 
