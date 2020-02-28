@@ -1,4 +1,4 @@
-//go:generate httpstatus
+//go:generate httpstatusgen
 
 // Package httpstatus expands the simple Status and StatusCode values
 // returned by the net/http package to included classes, references
