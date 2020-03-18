@@ -1,4 +1,4 @@
-package rfc
+package ietf
 
 import (
 	"testing"
